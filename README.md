@@ -9,8 +9,12 @@ In this project, one airplane flight will be simulated to visit all given airpor
 * $I = \\{1, 2, 3, ..., n\\}$ is the airport set
 * $K = \\{1, 2, 3, ...\\}$ is the set of aircraft age index in days
 * $c$ is the flight cost matrix with $𝑐_{𝑖,𝑗}$ is the flight cost from airport $i$ to airport $j$
-* 
-
+* $Acost_{i}$ is cost vector per day at airport $i$ of The A check maintenance
+* $Bcost_{i}$ is cost vector per day at airport $i$ of The B check maintenance
+* $Ccost_{i}$ is cost vector per day at airport $i$ of The C check maintenance
+* $Dcost_{i}$ is cost vector per day at airport $i$ of The D check maintenance
+* $loss$ is maintenance loss which is defined from the median profit per day
+$$loss = \frac{4c_{min} + c_{max}}{2}, \space\space\space  0 < c_{min} < c_{i,j} < c_{max},\space\space\space \forall{i,j} \in I$$
 
 ## Optimization Problems
 $$ \sum_{k \in K} \sum_{i \in I} \sum_{j \in J} \left( c_{i,j} x_{i,j} + Acost_{i} A_{i,j,k} + Bcost_{i} B_{i,j,k} + Ccost_{i} C_{i,j,k} + Dcost_{i} D_{i,j,k} + lossA_{i,j,k} + lossB_{i,j,k} + lossC_{i,j,k} + lossD_{i,j,k} \right) $$
