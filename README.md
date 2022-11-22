@@ -2,10 +2,25 @@
 ___
 In this project, one airplane flight will be simulated to visit all given airports. Each airport has different distances and costs and duration of aircraft maintenance, so this simulation aims to find aircraft flight routes that have the minimum distance (flight costs), maintenance costs and maintenance duration.
 
-# Optimization Problems
+# Math formulas
+
+## Parameter definition
+
+
+## Optimization Problems
 $$ \sum_{k \in K} \sum_{i \in I} \sum_{j \in J} \left( c_{i,j} x_{i,j} + Acost_{i} A_{i,j,k} + Bcost_{i} B_{i,j,k} + Ccost_{i} C_{i,j,k} + Dcost_{i} D_{i,j,k} + lossA_{i,j,k} + lossB_{i,j,k} + lossC_{i,j,k} + lossD_{i,j,k} \right) $$
 
-#### constraint
+##### Notes:
+* $c_{i,j} x_{i,j}$ is objective function of airline costs
+* $Acost_{i} A_{i,j,k}$ is 
+* $Bcost_{i} B_{i,j,k}$ is 
+* $Ccost_{i} C_{i,j,k}$ is 
+* $Dcost_{i} D_{i,j,k}$ is 
+* 
+
+
+
+## Constraint
 
 
 # Assumption
