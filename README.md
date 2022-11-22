@@ -5,6 +5,11 @@ In this project, one airplane flight will be simulated to visit all given airpor
 # Math formulas
 
 ## Parameter definition
+* $n$ is the number of airports
+* $I = \\{1, 2, 3, ..., n\\}$ is the airport set
+* $K = \\{1, 2, 3, ...\\}$ is the set of aircraft age index in days
+* $c$ is the flight cost matrix with $𝑐_{𝑖,𝑗}$ is the flight cost from airport $i$ to airport $j$
+* 
 
 
 ## Optimization Problems
@@ -12,11 +17,14 @@ $$ \sum_{k \in K} \sum_{i \in I} \sum_{j \in J} \left( c_{i,j} x_{i,j} + Acost_{
 
 ##### Notes:
 * $c_{i,j} x_{i,j}$ is objective function of airline costs
-* $Acost_{i} A_{i,j,k}$ is 
-* $Bcost_{i} B_{i,j,k}$ is 
-* $Ccost_{i} C_{i,j,k}$ is 
-* $Dcost_{i} D_{i,j,k}$ is 
-* 
+* $Acost_{i} A_{i,j,k}$ is objective function of The A check maintenance costs
+* $Bcost_{i} B_{i,j,k}$ is objective function of The B check maintenance costs
+* $Ccost_{i} C_{i,j,k}$ is objective function of The C check maintenance costs
+* $Dcost_{i} D_{i,j,k}$ is objective function of The D check maintenance costs
+* $lossA_{i,j,k}$ is objective function of The A check maintenance time loss
+* $lossB_{i,j,k}$ is objective function of The B check maintenance time loss
+* $lossC_{i,j,k}$ is objective function of The C check maintenance time loss
+* $lossD_{i,j,k}$ is objective function of The D check maintenance time loss
 
 
 
