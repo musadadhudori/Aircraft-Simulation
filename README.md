@@ -1,26 +1,21 @@
 # Aircraft-Simulation
-Application of some travelling salesman problem search methods on commercial flight routes with maintenance consideration
+___
+In this project, one airplane flight will be simulated to visit all given airports. Each airport has different distances and costs and duration of aircraft maintenance, so this simulation aims to find aircraft flight routes that have the minimum distance (flight costs), maintenance costs and maintenance duration.
 
-# Description
-The cost of airplane fuel is one of the important considerations for an airline in
-determining the price of its flight ticket. The increase in aviation fuel prices has the
-potential to cause an increase in flight ticket prices. In addition, airlines also need
-to consider the schedule and place of aircraft maintenance. Aircraft maintenance
-carried out at the right time and place can save the duration and cost of aircraft
-maintenance. One solution that can be considered is choosing the optimal flight
-route. The definition of an optimal flight route is a flight route that has a minimum
-flight cost, maintenance cost and duration of maintenance. Airplane route selection
-is one of the applications of the Traveling Salesman Problem (TSP). TSP is an
-optimization problem to find the best route by visiting all cities once and returning
-to the initial city. This final project will discuss the selection of flight routes with
-several stages, namely data collection, mathematical model design, application of
-methods, program simulation and analysis of results. The methods used in this
-research are Brute Force, Held Karp, Genetic Algorithm and Nearest Neighbor.
-This final project aims to choose a flight route that has minimum flight costs,
-maintenance costs and duration of maintenance using the Brute Force, Held Karp,
-Genetic Algorithm and Nearest Neighbor methods and then compare them.
-However, the program created in this final project requires a long execution time,
-so improvements are still needed so that the program can run faster. The results of
-this study are expected to be useful for airline companies in choosing flight routes
-or can be considered when they want to increase the number of aircraft in their
-airline.
+# Assumption
+* The data used is data obtained from random numbers generated with certain limits
+* Airfare ranges from $708 to $51,124
+* [The A check](https://www.qantasnewsroom.com.au/roo-tales/the-a-c-and-d-of-aircraft-maintenance/) aircraft maintenance interval ranges from 56 days to 70 days
+* [The B check](https://www.naa.edu/types-of-aviation-maintenance-checks/) aircraft maintenance interval ranges from 180 days to 240 days
+* [The C check](https://www.qantasnewsroom.com.au/roo-tales/the-a-c-and-d-of-aircraft-maintenance/) aircraft maintenance interval ranges from 540 days to 720 days
+* [The D check](https://www.naa.edu/types-of-aviation-maintenance-checks/) aircraft maintenance interval ranges from 2,160 days to 3,600 days
+<br></br>
+* The A check maintenance duration per airport 1 days
+* The B check maintenance duration per airport from 1 days to 3 days
+* The C check maintenance duration per airport from 7 days to 14 days
+* The D check maintenance duration per airport from 21 days to 42 days
+<br></br>
+* The A check maintenance cost per airport from $310 to $820
+* The B check maintenance cost per airport from $4,960 to $7,380
+* The C check maintenance cost per airport from $186,000 to $246,000
+* The D check maintenance cost per airport from $930,000 to $2,050,000
