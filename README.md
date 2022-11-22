@@ -17,9 +17,35 @@ In this project, one airplane flight will be simulated to visit all given airpor
 $$loss = \frac{4c_{min} + c_{max}}{2}, \space\space\space  0 < c_{min} < c_{i,j} < c_{max},\space\space\space \forall{i,j} \in I$$
 
 ## Decision Variables
+$x_{i,j,k} = $
+
+
+$$
+sign(x) = \left \\{
+    \begin{array}\\
+        1 & \mbox{if } \ x \in \mathbf{N}^* \\
+        0 & \mbox{if } \ x = 0 \\
+        -1 & \mbox{else}
+    \end{array}
+\right. $$
+
+\\
+
+$$
+ \left\{
+    \begin{array} \\
+        \alpha^2 = \sqrt5 \\
+        \alpha \geq 0 
+    \end{array}
+\right \alpha = 5 
+$$
+
+
+
+
 
 ## Optimization Problems
-$$ \sum_{k \in K} \sum_{i \in I} \sum_{j \in J} \left( c_{i,j} x_{i,j} + Acost_{i} A_{i,j,k} + Bcost_{i} B_{i,j,k} + Ccost_{i} C_{i,j,k} + Dcost_{i} D_{i,j,k} + lossA_{i,j,k} + lossB_{i,j,k} + lossC_{i,j,k} + lossD_{i,j,k} \right) $$
+$$ \min\left( \sum_{k \in K} \sum_{i \in I} \sum_{j \in J} \left( c_{i,j} x_{i,j} + Acost_{i} A_{i,j,k} + Bcost_{i} B_{i,j,k} + Ccost_{i} C_{i,j,k} + Dcost_{i} D_{i,j,k} + lossA_{i,j,k} + lossB_{i,j,k} + lossC_{i,j,k} + lossD_{i,j,k} \right)\right) $$
 
 ##### Notes:
 * $c_{i,j} x_{i,j}$ is objective function of airline costs
