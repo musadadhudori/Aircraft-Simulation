@@ -93,6 +93,7 @@ $$ \sum_{k \in K} \sum_{i=1}^{n} x_{i,j,k} = 1, \space\space\space for \space j\
 * Maximum number of flights per day is 4
 * Maximum airfare per day is $51,124
 * 1 month = 30 days
+* Each maintenance check can be carried out concurrently
 
 <br></br>
 * [The A check](https://www.qantasnewsroom.com.au/roo-tales/the-a-c-and-d-of-aircraft-maintenance/) aircraft maintenance interval ranges from 56 days to 70 days
