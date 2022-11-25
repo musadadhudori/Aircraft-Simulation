@@ -1,4 +1,4 @@
-# Aircraft Simulation
+# Flight Simulation
 ___
 In this project, one airplane flight will be simulated to visit all given airports. Each airport has different distances and costs and duration of aircraft maintenance, so this simulation aims to find aircraft flight routes that have the minimum distance (flight costs), maintenance costs and maintenance duration.
 
