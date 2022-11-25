@@ -122,9 +122,9 @@ $$ \sum_{k \in K} \sum_{i=1}^{n} x_{i,j,k} = 1, \space\space\space for \space j\
 For example, the flight route is A, B, C, D, E, F, G, H, I, J and back to A. When the plane arrives at airport E, the flight costs are more than $51124, because the maximum flight cost per day is $51124, so at airport D the age of the plane increases by one day. On routes D, E, F, G, H and I, even though from airport D to airport I the flight costs were less than $51124, but because at airport H the plane visited four airports, the age of the plane increased by one day. On routes H, I, J and A, because airport A is the last route, the age of the aircraft is increased by one day.
 
 # Method
-* Brute Force
-* Held Karp
-* Modified Brute Force
-* Modified Held Karp
-* Nearest Neighbor
-* Genetic Algorithm
+* Brute Force (3 - 12 airports)
+* Held Karp (3 - 20 airports)
+* Modified Brute Force (unstable)
+* Modified Held Karp (unstable)
+* Genetic Algorithm (3 - 50 airports)
+* Nearest Neighbor (>50 airports)
